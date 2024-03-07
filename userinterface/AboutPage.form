@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="bankproject.userinterface.AboutPage">
+  <grid id="27dc6" binding="aboutMainPanel" layout-manager="GridLayoutManager" row-count="7" column-count="1" same-size-horizontally="true" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="5" left="25" bottom="5" right="25"/>
+    <constraints>
+      <xy x="20" y="20" width="900" height="1200"/>
+    </constraints>
+    <properties>
+      <background color="-3285249"/>
+      <foreground color="-16767070"/>
+      <maximumSize width="1080" height="1080"/>
+      <minimumSize width="400" height="600"/>
+      <preferredSize width="750" height="900"/>
+    </properties>
+    <border type="bevel-lowered" title="BANK OF IEDS" title-justification="2" title-position="1">
+      <font size="20"/>
+      <title-color color="-16777216"/>
+    </border>
+    <children>
+      <component id="93475" class="javax.swing.JLabel" binding="aboutLabel2">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="671" height="242"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="DejaVu Sans Mono" size="18"/>
+          <foreground color="-7367774"/>
+          <text value="entrepreneur.The bank saw the light on 11th of september 2001"/>
+        </properties>
+      </component>
+      <component id="45087" class="javax.swing.JLabel" binding="aboutLabel1">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="100" height="74"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="DejaVu Sans Mono" size="18"/>
+          <text value="BANK OF IEDS is a joint venture between 3 highly successful"/>
+        </properties>
+      </component>
+      <component id="c4507" class="javax.swing.JLabel" binding="aboutLabel3">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="DejaVu Sans Mono" size="18"/>
+          <text value="The owners of the bank are: Ali Rida Darsa,Ali Awela  and"/>
+        </properties>
+      </component>
+      <component id="e6bba" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="627" height="126"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-10496"/>
+          <font name="DejaVu Sans Mono" size="18"/>
+          <foreground color="-16759041"/>
+          <text value="Al doctor al wazeer al engineer al scientist Wael Ibrahim"/>
+        </properties>
+      </component>
+      <component id="c9974" class="javax.swing.JButton" binding="backButton">
+        <constraints>
+          <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <horizontalAlignment value="0"/>
+          <text value="Go Back"/>
+          <toolTipText value="Returns to the main page"/>
+        </properties>
+      </component>
+      <component id="b9af1" class="javax.swing.JLabel" binding="aboutHeaderLabel">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="339" height="173"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font size="28"/>
+          <text value="Information about the bank"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>

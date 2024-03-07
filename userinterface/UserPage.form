@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="bankproject.userinterface.UserPage">
+  <grid id="27dc6" binding="userPanel" layout-manager="BorderLayout" hgap="5" vgap="5">
+    <constraints>
+      <xy x="20" y="20" width="827" height="627"/>
+    </constraints>
+    <properties>
+      <background color="-3285249"/>
+    </properties>
+    <border type="bevel-lowered" title="BANK OF IEDS" title-justification="2" title-position="1">
+      <font size="20"/>
+      <title-color color="-16777216"/>
+    </border>
+    <children>
+      <grid id="39a22" binding="balancePanel" layout-manager="GridLayoutManager" row-count="6" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints border-constraint="Center"/>
+        <properties>
+          <background color="-3285249"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="2c835" class="javax.swing.JButton" binding="VIEWPREVIOUSTRANSACTIONSButton" default-binding="true">
+            <constraints>
+              <grid row="4" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="VIEW PREVIOUS TRANSACTIONS"/>
+            </properties>
+          </component>
+          <component id="80b17" class="javax.swing.JButton" binding="PAYButton" default-binding="true">
+            <constraints>
+              <grid row="3" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="PAY"/>
+            </properties>
+          </component>
+          <component id="88ef3" class="javax.swing.JButton" binding="WITHDRAWButton" default-binding="true">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="WITHDRAW"/>
+            </properties>
+          </component>
+          <component id="fcf7b" class="javax.swing.JButton" binding="TRANSFERButton" default-binding="true">
+            <constraints>
+              <grid row="2" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="TRANSFER"/>
+            </properties>
+          </component>
+          <component id="3e8fc" class="javax.swing.JButton" binding="DEPOSITEButton" default-binding="true">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="DEPOSITE"/>
+            </properties>
+          </component>
+          <component id="e6583" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Client:"/>
+            </properties>
+          </component>
+          <component id="66d82" class="javax.swing.JLabel" binding="clientName">
+            <constraints>
+              <grid row="5" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Label"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="dd952" binding="mainActionsPanel" layout-manager="GridLayoutManager" row-count="1" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints border-constraint="North"/>
+        <properties>
+          <background color="-3285249"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="a3ec1" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false">
+                <preferred-size width="332" height="16"/>
+              </grid>
+            </constraints>
+            <properties>
+              <text value="Balance:"/>
+            </properties>
+          </component>
+          <component id="1dc24" class="javax.swing.JLabel" binding="currentBalance">
+            <constraints>
+              <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="0000$"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>
